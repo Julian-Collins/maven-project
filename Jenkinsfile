@@ -3,7 +3,7 @@ pipeline {
 
     parameters {
          string(name: 'tomcat_dev', defaultValue: '35.176.185.242', description: 'Staging Server')
-         string(name: 'tomcat_prod', defaultValue: '35.178.197.137', description: 'Production Server')
+         string(name: 'tomcat_prod', defaultValue: '35.178.198.137', description: 'Production Server')
     }
 
     triggers {
